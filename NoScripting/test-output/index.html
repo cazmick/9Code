@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">2 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-CompanyService">
+              <span class="suite-name border-passed">CompanyService</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-CompanyService">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-CompanyService">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-CompanyService">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-CompanyService">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-CompanyService">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-CompanyService">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-CompanyService">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CompanyService" class="hide-methods passed suite-CompanyService"> (hide)</a> <!-- hide-methods passed suite-CompanyService -->
+                      <a href="#" panel-name="suite-CompanyService" class="show-methods passed suite-CompanyService"> (show)</a> <!-- show-methods passed suite-CompanyService -->
+                    </span>
+                    <div class="method-list-content passed suite-CompanyService">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CompanyService" title="testScript.API" hash-for-method="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...)">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CompanyService" title="testScript.API" hash-for-method="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...)">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CompanyService -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-FolderAPI">
+              <span class="suite-name border-failed">FolderAPI</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-FolderAPI">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-FolderAPI">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-FolderAPI">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-FolderAPI">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-FolderAPI">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-FolderAPI">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-FolderAPI">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-FolderAPI" class="hide-methods failed suite-FolderAPI"> (hide)</a> <!-- hide-methods failed suite-FolderAPI -->
+                      <a href="#" panel-name="suite-FolderAPI" class="show-methods failed suite-FolderAPI"> (show)</a> <!-- show-methods failed suite-FolderAPI -->
+                    </span>
+                    <div class="method-list-content failed suite-FolderAPI">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FolderAPI" title="testScript.API" hash-for-method="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did;UNID=$$UNID, ResponseCookie...)">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did;UNID=$$UNID, ResponseCookie...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-FolderAPI -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FolderAPI" class="hide-methods passed suite-FolderAPI"> (hide)</a> <!-- hide-methods passed suite-FolderAPI -->
+                      <a href="#" panel-name="suite-FolderAPI" class="show-methods passed suite-FolderAPI"> (show)</a> <!-- show-methods passed suite-FolderAPI -->
+                    </span>
+                    <div class="method-list-content passed suite-FolderAPI">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FolderAPI" title="testScript.API" hash-for-method="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did, ResponseCookiesToBeSaved=U...)">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did, ResponseCookiesToBeSaved=U...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FolderAPI" title="testScript.API" hash-for-method="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=auth_token, RequestCookies=_did=$$_did, ResponseCookiesToB...)">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=auth_token, RequestCookies=_did=$$_did, ResponseCookiesToB...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FolderAPI -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CompanyService" class="panel CompanyService">
+          <div class="suite-CompanyService-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.API</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...)">
+                  </a> <!-- runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...) -->
+                  <span class="method-name">runAPITest</span>
+                  <span class="parameters">({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, RandomValues=NA, BasePath=/cities/{cityID}, PathParameters=cityID=1, QueryParameters=NA, TestCaseName=GetCity, ResponseType=JSON, ResponseBody=NA, RequestHeaders=AppId=114;SystemId=naukriIndia;Accept-Encoding=gzip,deflate;cache-control=no-cache;Accept=*/*;Content-Type=application/json, DependOnTest=NA, BaseURI=http://services.test2.mnr-services-test2.cluster.infoedge.com/company-services/company-service-refactor, RequestType=GET, RequestBody=NA})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...)">
+                  </a> <!-- runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...) -->
+                  <span class="method-name">runAPITest</span>
+                  <span class="parameters">({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, RandomValues=NA, BasePath=/cities/, PathParameters=NA, QueryParameters=NA, TestCaseName=PutCity, ResponseType=JSON, ResponseBody=NA, RequestHeaders=AppId=114;SystemId=naukriIndia;Accept-Encoding=gzip,deflate;cache-control=no-cache;Accept=*/*;Content-Type=application/json, DependOnTest=NA, BaseURI=http://services.test2.mnr-services-test2.cluster.infoedge.com/company-services/company-service-refactor, RequestType=PUT, RequestBody={"cityId":5000,"city": "Sumant", "stateId": 100, "countryId": 1000,"stdCode": 10000,"gulfCityId":"180.28","gulfCountryId":"180"}})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CompanyService-class-passed -->
+        </div> <!-- panel CompanyService -->
+        <div panel-name="suite-FolderAPI" class="panel FolderAPI">
+          <div class="suite-FolderAPI-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScript.API</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did;UNID=$$UNID, ResponseCookie...)">
+                  </a> <!-- runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did;UNID=$$UNID, ResponseCookie...) -->
+                  <span class="method-name">runAPITest</span>
+                  <span class="parameters">({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did;UNID=$$UNID, ResponseCookiesToBeSaved=NA, RandomValues=NA, BasePath=/companies/{companyID}/recruiters/{recruiterID}/folders , PathParameters=companyID=6511804;recruiterID=5565791, QueryParameters=NA, TestCaseName=createFolder, ResponseType=JSON, ResponseBody=NA, RequestHeaders=AppId=121;SystemId=jobseeker;Accept-Encoding=gzip,deflate;cache-control=no-cache;Accept=*/*;Content-Type=application/json, DependOnTest=loginService, BaseURI=https://resdex.naukri.com/cloudgateway-resdex/recruiter-data-directories-services/v0/v2, RequestType=POST, RequestBody={"allUsers":[],"sharedWith":[],"folderName":"uiduidksaji"}})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testScript.API.runAPITest(API.java:153)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at utility.GenerateTestNGXml.CreateTestNGXml(GenerateTestNGXml.java:46)
+	at launch.Master.main(Master.java:20)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FolderAPI-class-failed -->
+          <div class="suite-FolderAPI-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScript.API</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did, ResponseCookiesToBeSaved=U...)">
+                  </a> <!-- runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did, ResponseCookiesToBeSaved=U...) -->
+                  <span class="method-name">runAPITest</span>
+                  <span class="parameters">({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did, ResponseCookiesToBeSaved=UNID, RandomValues=NA, BasePath=/Login/loginService, PathParameters=NA, QueryParameters=username=company16@yopmail.com;password=P@ssw0rd100;g-recaptcha-response='';URL=https://recruit.naukri.com/;isIE7=false;csrf=$$auth_token, TestCaseName=loginService, ResponseType=HTML, ResponseBody=NA, RequestHeaders=AppId=121;SystemId=jobseeker;Accept-Encoding=gzip,deflate;cache-control=no-cache;Accept=*/*;Content-Type=application/json, DependOnTest=rLogin, BaseURI=https://login.recruit.naukri.com, RequestType=POST, RequestBody=NA})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runAPITest({ResponseCode=200, ResponseFieldToBeSaved=auth_token, RequestCookies=_did=$$_did, ResponseCookiesToB...)">
+                  </a> <!-- runAPITest({ResponseCode=200, ResponseFieldToBeSaved=auth_token, RequestCookies=_did=$$_did, ResponseCookiesToB...) -->
+                  <span class="method-name">runAPITest</span>
+                  <span class="parameters">({ResponseCode=200, ResponseFieldToBeSaved=auth_token, RequestCookies=_did=$$_did, ResponseCookiesToBeSaved=NA, RandomValues=_did, BasePath=/recruit/login, PathParameters=NA, QueryParameters=NA, TestCaseName=rLogin, ResponseType=HTML, ResponseBody=NA, RequestHeaders=AppId=121;SystemId=jobseeker;Accept-Encoding=gzip,deflate;cache-control=no-cache;Accept=*/*;Content-Type=application/json, DependOnTest=NA, BaseURI=https://www.naukri.com, RequestType=GET, RequestBody=NA})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FolderAPI-class-passed -->
+        </div> <!-- panel FolderAPI -->
+        <div panel-name="test-xml-CompanyService" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CompanyService&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CompanyServiceTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScript.API&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CompanyServiceTest --&gt;
+&lt;/suite&gt; &lt;!-- CompanyService --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-FolderAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FolderAPI&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FolderAPITest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScript.API&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FolderAPITest --&gt;
+&lt;/suite&gt; &lt;!-- FolderAPI --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CompanyService" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CompanyService</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CompanyServiceTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FolderAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FolderAPI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FolderAPITest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CompanyService" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CompanyService</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FolderAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FolderAPI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CompanyService" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CompanyService</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CompanyService');
+function tableData_CompanyService() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runAPITest')
+data.setCell(0, 2, 'testScript.API')
+data.setCell(0, 3, 1651);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runAPITest')
+data.setCell(1, 2, 'testScript.API')
+data.setCell(1, 3, 57);
+window.suiteTableData['CompanyService']= { tableData: data, tableDiv: 'times-div-CompanyService'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-CompanyService">
+              </div> <!-- times-div-CompanyService -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FolderAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FolderAPI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FolderAPI');
+function tableData_FolderAPI() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runAPITest')
+data.setCell(0, 2, 'testScript.API')
+data.setCell(0, 3, 809);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runAPITest')
+data.setCell(1, 2, 'testScript.API')
+data.setCell(1, 3, 807);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runAPITest')
+data.setCell(2, 2, 'testScript.API')
+data.setCell(2, 3, 386);
+window.suiteTableData['FolderAPI']= { tableData: data, tableDiv: 'times-div-FolderAPI'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-FolderAPI">
+              </div> <!-- times-div-FolderAPI -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CompanyService" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CompanyService</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FolderAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FolderAPI</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CompanyService" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FolderAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CompanyService" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.API</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reporting(org.testng.TestRunner@53c68ce)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...)</span>
+                <span class="method-start">5216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=NA, ResponseCookiesToBeSaved=NA, Random...)</span>
+                <span class="method-start">6869 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">6869 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">6926 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">11947 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FolderAPI" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScript.API</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">reporting(org.testng.TestRunner@6f9ad11c)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=auth_token, RequestCookies=_did=$$_did, ResponseCookiesToB...)</span>
+                <span class="method-start">5032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">5841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did, ResponseCookiesToBeSaved=U...)</span>
+                <span class="method-start">5841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">6648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runAPITest({ResponseCode=200, ResponseFieldToBeSaved=NA, RequestCookies=_did=$$_did;UNID=$$UNID, ResponseCookie...)</span>
+                <span class="method-start">6648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">7034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">12046 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FolderAPI]">
+  <test thread-count="5" name="FolderAPITest(failed)">
+    <classes>
+      <class name="testScript.API">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="runAPITest" invocation-numbers="2"/>
+          <include name="reporting"/>
+        </methods>
+      </class> <!-- testScript.API -->
+    </classes>
+  </test> <!-- FolderAPITest(failed) -->
+</suite> <!-- Failed suite [FolderAPI] -->

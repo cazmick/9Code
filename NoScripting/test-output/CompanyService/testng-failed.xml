@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CompanyService]">
+  <test thread-count="5" name="CompanyServiceTest(failed)">
+    <classes>
+      <class name="testScript.API">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="runAPITest" invocation-numbers="0 1"/>
+          <include name="reporting"/>
+        </methods>
+      </class> <!-- testScript.API -->
+    </classes>
+  </test> <!-- CompanyServiceTest(failed) -->
+</suite> <!-- Failed suite [CompanyService] -->
